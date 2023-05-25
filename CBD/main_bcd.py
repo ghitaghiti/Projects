@@ -12,6 +12,8 @@ from sklearn.metrics import accuracy_score
 from pandas.plotting import scatter_matrix
 import matplotlib.pyplot as plt
 import pandas as pd
+
+# show version of some libraries
 print('Python: {}'.format(sys.version))
 print('scipy: {}'.format(scipy.__version__))
 print('numpy: {}'.format(np.__version__))
